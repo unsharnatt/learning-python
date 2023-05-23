@@ -14,7 +14,7 @@ print(is_purchased, type(is_purchased))
 # 10 <class 'int'>
 # True <class 'bool'>
 
-# ***Try to play around to prove it, simulate to get results from different platform***
+# ***Try to play around to prove it, a simulate to get results from different format***
 # is_purchased = False
 is_purchased = is_purchased and "Y" or "N" # Y|N for some reason
 print(is_purchased, type(is_purchased))
@@ -22,5 +22,5 @@ print(is_purchased, type(is_purchased))
 
 is_purchased = 'No'
 is_purchased = is_purchased.lower() in ("y","yes", "true", "t", "1")
-print(is_purchased, type(is_purchased))# type casting from str to bool after getting result from other system/API
+print(is_purchased, type(is_purchased))# type conversion from str to bool after getting result from other system/API
 # False <class 'bool'>
